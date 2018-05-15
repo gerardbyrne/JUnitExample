@@ -51,5 +51,4 @@ public class InvoiceClassTests {
 		double commission = invoice1.commissionEarnedBySalesPerson("T1544", "Big Red Book", 5, 20.00);
 		assertEquals(2.40, commission, 0.0);
 	} 
-
 }
