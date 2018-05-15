@@ -55,5 +55,4 @@ public class Invoice {
 		}
 		return commission;
 	}
-
 }
