@@ -41,7 +41,6 @@ public class Invoice {
 		return invoiceTotal;
 	}
 
-	
 	public double commissionEarnedBySalesPerson(String partNumberPassedIn, String partDescriptionPassedIn, int quantityPassedIn, double pricePassedIn) 
 	{
 		double invoiceTotal 		= totalCostOfInvoice(partNumberPassedIn, partDescriptionPassedIn,  quantityPassedIn,  pricePassedIn);
