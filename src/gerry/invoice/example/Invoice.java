@@ -1,6 +1,7 @@
 package gerry.invoice.example;
 
-public class Invoice {
+public class Invoice 
+{
 	public double totalCostOfItems(String partNumberPassedIn, 
 			String partDescriptionPassedIn, 
 			int quantityPassedIn,
